@@ -1,0 +1,28 @@
+{
+  "name": "jul_hg_test",
+  "version": "1.0.0",
+  "description": "PS C:\\Users\\Victor Hugo Marques\\Documents\\VICTOR HUGO\\UNB\\jul_HG_Test> npm -v\r 8.19.3\r PS C:\\Users\\Victor Hugo Marques\\Documents\\VICTOR HUGO\\UNB\\jul_HG_Test> node -v \r v18.13.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victordelete/jul_HG_Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Victordelete/jul_HG_Test/issues"
+  },
+  "homepage": "https://github.com/Victordelete/jul_HG_Test#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "5.11"
+  }
+}
