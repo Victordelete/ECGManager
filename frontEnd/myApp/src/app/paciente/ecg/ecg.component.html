@@ -1,0 +1,38 @@
+<h3 class="formPadding block">Paciente detalhes</h3>
+
+<div *ngIf="paciente" class="formPadding block">
+
+  <div class="form-group form-Step">
+    <label for="formId">Nº Paciente</label>
+    <textarea name="textarea" class="form-control" disabled="disabled">{{ paciente.pk_paciente }}</textarea>
+  </div>
+
+  <div class="form-group form-Step">
+    <label for="formName">Nome</label>
+    <textarea name="textarea" class="form-control" disabled="disabled">{{ paciente.nome }}</textarea>
+  </div>
+
+  <div class="form-group form-Step">
+    <label for="formCpf">Cpf</label>
+    <textarea name="textarea" class="form-control" disabled="disabled">{{ paciente.cpf }}</textarea>
+  </div>
+
+  <div class="form-group form-Step">
+    <label for="formDataNascimento">Data nascimento</label>
+    <textarea name="textarea" class="form-control" disabled="disabled">{{ paciente.data_nascimento }}</textarea>
+  </div>
+
+  <div class="form-group form-Step">
+    <label for="formTelefone">Telefone</label>
+    <textarea name="textarea" class="form-control" disabled="disabled">{{ paciente.telefone }}</textarea>
+  </div>
+
+</div>
+
+<div class="block">
+  <div>
+    <canvas id="canvas" class="chartSize" >
+      {{chart}}
+    </canvas>
+  </div>
+</div>

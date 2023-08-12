@@ -1,0 +1,19 @@
+.formPadding {
+}
+
+.form-Step{
+}
+
+.form-control{
+ height: 30px;
+}
+
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chartSize{
+  height: 400px;
+}
